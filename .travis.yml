@@ -2,6 +2,8 @@ language: node_js
 node_js:
   - 6
 
+SURGE_TOKEN: 25ccac00b986360433c530ae0d2e9f24
+
 deploy:
   provider: surge
   project: ./dist/
