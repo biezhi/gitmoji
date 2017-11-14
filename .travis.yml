@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - 6
-script: npm run deploy
-after_success:
-  - if [[ "${TRAVIS_BRANCH}" == "master" && "${TRAVIS_PULL_REQUEST}" == "false" ]]; then npm run deploy -s; fi
+
+deploy:
+  provider: surge
+  project: ./dist/
+  domain: gitmoji.surge.sh
