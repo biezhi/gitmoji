@@ -18,14 +18,14 @@
 			"emoji":"🔥",
 			"entity":"&#x1f525;",
 			"code":":fire:",
-			"description":"移除代码或文件.",
+			"description":"移除代码或文件",
 			"name":"fire"
 		},
 		{
 			"emoji":"🐛",
 			"entity":"&#x1f41b;",
 			"code":":bug:",
-			"description":"复 BUG",
+			"description":"修复 BUG",
 			"name":"bug"
 		},
 		{
